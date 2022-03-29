@@ -176,8 +176,9 @@ export default function ResponsiveGrid(props: IResponsiveGrid) {
   const containerClass = cn(props.className);
 
   // ============================================
-  // Visualize the component
+  // Render the component
   // ============================================
+
   return (
     <div className={containerClass}>
       {toolbox.length ? (
